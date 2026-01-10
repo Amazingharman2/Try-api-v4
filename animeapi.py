@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Base URL for the anime site
-BASE_URL = "https://animesalt.cc"
+BASE_URL = "http://animesalt.top"
 
 def remove_base_url(url):
     """Remove the base URL from a given URL to make it relative."""
